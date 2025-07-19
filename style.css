@@ -13,7 +13,7 @@ a {
 }
 
 a:visited {
-  color: inherit;
+  color: #000000;
 }
 
 * {
@@ -294,7 +294,7 @@ h3 {
 }
 
 .footer-links a, .footer-socials a {
-  color: #000000;
+  color: #ccc;
   text-decoration: none;
   transition: color 0.3s;
 }
