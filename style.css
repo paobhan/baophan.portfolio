@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  padding-top: 100px ;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: Montserrat;
+  color: white;
+  background-image: url(/images/background-img.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  
+}
+
+main {
+  margin-top: 400px;
+  background-color: rgb(3, 3, 29);
+  padding: 50px 50px;
+}
+
+header {
+  top: 0px;
+  left: 0px;
+  height: 80px;
+  width: 100%;
+  z-index: 1000;
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  transition: all 0.5s;
+}
+
+.transparent {
+  color: black;
+  background: transparent;
+}
+.solid {
+  background-color: rgb(18, 20, 32);
+}
+
+.logo-header {
+  margin-left: 20px;
+  cursor: pointer;
+}
+.logo-header:hover {
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 1);
+}
+
+li {
+  font-size: 20px;
+  cursor: pointer;
+  margin-right: 20px;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.2s;
+}
+li:hover {
+  scale: 1.2;
+}
+li:active {
+  scale: 0.9;
+  color: rgb(0, 23, 126);
+}
+
+.contact-btn-header {
+  cursor: pointer;
+  border: none;
+  margin-right: 20px;
+  padding: 10px 15px;
+  font-size: 15px;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: all 0.5s;
+}
+.contact-btn-header:hover {
+  scale: 1.2;
+  background-color: rgb(230, 224, 255);
+}
+.contact-btn-header:active {
+  scale: 1;
+  background-color: rgb(205, 200, 230);
+}
+
+.intro-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.picture {
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-top: 20px;
+}
+
+.greeting {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 300px;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: 600;
+}
+
+.profile-title {
+  margin-top: 5px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.description, h2 {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  opacity: 0.7;
+  text-align: center;
+}
+
+.main-section {
+  margin-bottom: 50px;
+}
+
+.about-main-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+}
+
+h3 {
+  font-size: 30px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.about-detail {
+  opacity: 0.7;
+  margin-bottom: 20px;
+}
+
+.skill-set-container {
+  display: flex;
+  column-gap: 30px;
+}
+
+.skill-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skill-icon {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.experience-section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.exp-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.exp-work {
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  padding: 20px;
+  border-radius: 20px;
+  transition: all 0.2s;
+}
+
+.exp-work:hover {
+  background-color: rgba(213, 213, 245, 0.178);
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.4);
+}
+
+.exp-time, .exp-none {
+  opacity: 0.7;
+}
+
+.exp-detail {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  line-height: 25px;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 50px;
+  column-gap: 50px;
+  justify-content: center;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+}
+
+.img-container {
+  cursor: pointer;
+}
+
+.thumbnail {
+  width: 350px;
+  height: 400px;
+  transition: all 1s;
+  opacity: 0.5;
+  object-fit: cover;
+}
+
+.img-container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.drive-icon {
+  position: absolute;
+  width: 100px;
+  z-index: 1000;
+}
+
+.img-container:hover .thumbnail {
+  scale: 0.95;
+  opacity: 1;
+}
+
+.site-footer {
+  background-color: #111;
+  color: #eee;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer-links, .footer-socials {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.footer-links a, .footer-socials a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover, .footer-socials a:hover {
+  color: #fff;
+}
+
