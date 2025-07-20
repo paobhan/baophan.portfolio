@@ -2,7 +2,15 @@
 <html>
   <head>
     <title>Bao Phan</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/general.css">
+    <link rel="stylesheet" href="./style/header.css">
+    <link rel="stylesheet" href="./style/about.css">
+    <link rel="stylesheet" href="./style/intro.css">
+    <link rel="stylesheet" href="./style/exp.css">
+    <link rel="stylesheet" href="./style/project.css">
+    <link rel="stylesheet" href="./style/footer.css">
+    <link rel="stylesheet" href="./style/reponsive.css">
   </head>
   <body>
     <section id="headerId"></section>
@@ -11,14 +19,16 @@
       <div class="greeting">
         <h1>Hi! I'm Bao Phan</h1>
         <h2 class="profile-title">Junior Front-end Developer<br>Senior Motion Graphic Designer</h2>
+        <a href="#about" class="scroll-down">↓</a>
       </div>
+      
     </div>
     <header class="header">
       <div class="js-logo-header logo-header">
         <a href="#headerId">BaoPhan</a>
       </div>
       <nav>
-        <ul>
+        <ul class="js-ul">
           <li><a href="#about">About</a></li>
           <li><a href="#exp">Experiences</a></li>
           <li><a href="#projects">Projects</a></li>
@@ -144,18 +154,13 @@
         <h3>Project</h3>
         <div class="project-grid">
           <div class="project-container">
-            <div>MAR 2020 &middot; The Story Communication</div>
-            <h4>International Woman's Day Animation</h4>
-            <div>
-              <iframe width="350" 
-                height="400" 
-                src="https://www.youtube.com/embed/ygnVhhF7jbU" 
-                title="Vector Animation" 
-                frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                referrerpolicy="strict-origin-when-cross-origin" 
-                allowfullscreen></iframe>
-            </div>
+            <div>JULY 2025</div>
+            <h4>Personal Website</h4>
+            <a href="">
+              <div class="img-container">
+                <img class="thumbnail" src="./images/profile-picture.jpg">
+              </div>
+            </a>
           </div>
   
           <div class="project-container">
@@ -174,6 +179,17 @@
           </div>
 
           <div class="project-container">
+            <div>NOV 2024 &middot; 7Swords Studio</div>
+            <h4>Train Blast CPI Videos</h4>
+            <a href="https://drive.google.com/drive/folders/1c9qLR6ncicTX5e1cYzvZ7DObsu9EHftq?usp=sharing" target="_blank">
+              <div class="img-container">
+                <img class="drive-icon" src="./images/icon/drive-icon.png">
+                <img class="thumbnail" src="./images/trainblast-thumb.png">
+              </div>
+            </a>
+          </div>
+
+          <div class="project-container">
             <div>OCT 2024 &middot; UpWork's Client</div>
             <h4>Converting Video Template</h4>
             <div>
@@ -188,24 +204,18 @@
           </div>
 
           <div class="project-container">
-            <div>NOV 2024 &middot; 7Swords Studio</div>
-            <h4>Train Blast CPI Videos</h4>
-            <a href="https://drive.google.com/drive/folders/1c9qLR6ncicTX5e1cYzvZ7DObsu9EHftq?usp=sharing" target="_blank">
-              <div class="img-container">
-                <img class="drive-icon" src="./images/icon/drive-icon.png">
-                <img class="thumbnail" src="./images/trainblast-thumb.png">
-              </div>
-            </a>
-          </div>
-
-          <div class="project-container">
-            <div>JULY 2025</div>
-            <h4>Personal Website</h4>
-            <a href="">
-              <div class="img-container">
-                <img class="thumbnail" src="./images/profile-picture.jpg">
-              </div>
-            </a>
+            <div>MAR 2020 &middot; The Story Communication</div>
+            <h4>International Woman's Day Animation</h4>
+            <div>
+              <iframe width="350" 
+                height="400" 
+                src="https://www.youtube.com/embed/ygnVhhF7jbU" 
+                title="Vector Animation" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen></iframe>
+            </div>
           </div>
         </div>
       </section>
