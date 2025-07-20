@@ -1,0 +1,46 @@
+header {
+  color: black;
+  top: 0px;
+  left: 0px;
+  height: 80px;
+  width: 100%;
+  z-index: 1000;
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  transition: all 0.5s;
+}
+
+.transparent {
+  background: transparent;
+}
+.solid {
+  color: white;
+  background-color: rgb(18, 20, 32);
+}
+
+.logo-header {
+  margin-left: 20px;
+  cursor: pointer;
+}
+.logo-header:hover {
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 1);
+}
+
+li {
+  font-size: 25px;
+  cursor: pointer;
+  margin-right: 20px;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.2s;
+}
+li:hover {
+  scale: 1.2;
+}
+li:active {
+  scale: 0.9;
+  color: rgb(0, 23, 126);
+}

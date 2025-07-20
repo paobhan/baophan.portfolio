@@ -1,0 +1,44 @@
+.project-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 50px;
+  column-gap: 50px;
+  justify-content: center;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+}
+
+.img-container {
+  cursor: pointer;
+}
+
+.thumbnail {
+  width: 350px;
+  height: 400px;
+  transition: all 1s;
+  opacity: 0.5;
+  object-fit: cover;
+}
+
+.img-container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.drive-icon {
+  position: absolute;
+  width: 100px;
+  z-index: 1000;
+}
+
+.img-container:hover .thumbnail {
+  scale: 0.95;
+  opacity: 1;
+}

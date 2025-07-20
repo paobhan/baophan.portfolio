@@ -1,0 +1,159 @@
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  .background {
+    width: 100%;
+    height: 100vh;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  li {
+    font-size: 1.5rem;
+  }
+
+  main {
+    font-size: 15px;
+    padding: 30px;
+  }
+
+  .about-main-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .exp-time {
+    font-size: 20px;
+  }
+
+  .exp-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+  }
+
+  .exp-work {
+    padding: 0;
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .project-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  .background {
+    width: 100%;
+    height: 100vh;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  li {
+    font-size: 15px;
+  }
+
+  main {
+    font-size: 15px;
+    padding: 30px;
+  }
+
+  .about-main-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .exp-time {
+    font-weight: 900;
+    font-size: 8px;
+  }
+
+  .exp-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+  }
+
+  .exp-work {
+    padding: 0;
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: 100px 1fr;
+  }
+
+  .project-grid {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  .background {
+    width: 100%;
+    height: 100vh;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  li {
+    font-size: 15px;
+  }
+
+  main {
+    font-size: 12px;
+    padding: 30px;
+  }
+
+  .about-main-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-detail {
+    font-size: 10px;
+  }
+
+  .exp-time {
+    font-weight: 900;
+    font-size: 8px;
+  }
+
+  .exp-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+  }
+
+  .exp-work {
+    padding: 0;
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: 100px 1fr;
+  }
+
+  .project-grid {
+    display: flex;
+    flex-direction: column;
+  }
+}

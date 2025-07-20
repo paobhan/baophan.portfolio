@@ -1,0 +1,39 @@
+.experience-section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.exp-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.exp-work {
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  padding: 20px;
+  border-radius: 20px;
+  transition: all 0.2s;
+}
+
+.exp-work:hover {
+  background-color: rgba(213, 213, 245, 0.178);
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.4);
+}
+
+.exp-time, .exp-none {
+  opacity: 0.7;
+}
+
+.exp-detail {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  line-height: 25px;
+}
+
+h4 {
+  margin: 0;
+}
